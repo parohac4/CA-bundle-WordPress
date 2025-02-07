@@ -10,7 +10,7 @@ Problém byl v tom, že verze CA bundle, která byla dodávána se staršími ve
 Tento PHP skript zajistí stažení aktuálního kořenového certifikátu a umístění do správné složky. Por jistotu zajistí zazálohování původního certifikátu. 
 
 ## Instalace
-Soubor **update-ca-bundle.php** umístíte do kořenového adresáře vaši instalace WordPress, například */www/domains/domena.tld* a poté otevřete URL https://domena.tld/update-ca-bundle.php v přohlížeči. Skript stáhne certifikát, zazálohuje původní (přejmenuje jej) a uloží certifiká do adresáře */wp-includes/certificates*. 
+Soubor **update-ca-bundle.php** umístíte do kořenového adresáře vaši instalace WordPress, například */www/domains/domena.tld* a poté otevřete URL `https://domena.tld/update-ca-bundle.php` v přohlížeči. Skript stáhne certifikát, zazálohuje původní (přejmenuje jej) a uloží certifiká do adresáře */wp-includes/certificates*. 
 
 ## Doporučení
 
